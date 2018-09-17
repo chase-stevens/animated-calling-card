@@ -34,6 +34,7 @@ const TextAnimation = window.anime ({
 const BackgroundChange = window.anime ({
   complete: function(anim) {
     document.body.style.backgroundColor = "#000";
+    document.documentElement.style.backgroundColor = "#000";
   },
   delay: 4000,
   duration: 1
