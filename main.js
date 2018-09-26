@@ -1,21 +1,36 @@
 const RedAnimation = window.anime ({
   targets: ".red",
-  translateX: 4000,
-  duration: 5000,
-  delay: 500
+  translateX: 16000,
+  duration: 1500,
+  delay: 500,
+  easing: 'linear',
+  skewX: {
+    value: "-20deg",
+    duration: 1
+  }
 });
 
 const GreenAnimation = window.anime ({
   targets: ".green",
-  translateX: 4000,
-  duration: 5000,
-  delay: 1500
+  translateX: 16000,
+  duration: 1500,
+  delay: 1500,
+  easing: 'linear',
+  skewX: {
+    value: "-20deg",
+    duration: 1
+  }
 });
 const BlueAnimation = window.anime ({
   targets: ".blue",
-  translateX: 4000,
-  duration: 5000,
-  delay: 2000
+  translateX: 16000,
+  duration: 1500,
+  delay: 2000,
+  easing: 'linear',
+  skewX: {
+    value: "-20deg",
+    duration: 1
+  }
 });
 
 const TextAnimation = window.anime ({
